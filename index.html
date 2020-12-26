@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sApp website</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="image/logo.png" type="image/png">
+</head>
+
+<body>
+  <div class="container-fluid color2  fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-6 p-lg-2 text-lg-left text-center">
+          <img class="img-fluid float-left" src="image/logo-white.png" alt="logotip">
+        </div>
+
+        <div class="col-lg-8 p-lg-3 d-lg-flex justify-content-lg-end d-none">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="font-weight-bold btn btn-outline-primary text-white dropdown-toggle" type="button"
+                  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Home
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#">Feature</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="font-weight-bold btn btn-outline-primary text-white dropdown-toggle" type="button"
+                  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="dropdown">
+                    <button class="font-weight-bold btn btn-outline-white text-dark dropdown-toggle" type="button"
+                      id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Action <span class="badge badge-warning rounded-pill">New</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div> <a class="dropdown-item font-weight-bold text-dark" href="#">Another action</a>
+                  <div class="dropdown">
+                    <button class="font-weight-bold btn btn-outline-white text-dark dropdown-toggle" type="button"
+                      id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Something else here <span class="badge badge-warning rounded-pill">New</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#">Screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 d-lg-none d-flex justify-content-center">
+          <button class="btn btn-outline-primary text-white" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample" type="button">
+            <i class="fa fa-bars fa-2x"></i></button>
+          <div class="collapse" id="collapseExample">
+            <div class="d-lg-none col-lg-6 d-flex align-items-md-center">
+              <ul class="list-inline text-center">
+                <div class="dropdown d-block ">
+                  <button class="font-weight-bold btn btn-outline-primary text-white dropdown-toggle" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <li class="list-inline-item py-2 col-md-12 text-center"> <a class="nav-link text-white font-weight-bold"
+                    href="#">Feature</a></li>
+                <li class="list-inline-item py-2 col-md-12 text-center">
+                  <div class="dropdown">
+                    <button class="font-weight-bold btn btn-outline-primary text-white dropdown-toggle" type="button"
+                      id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Pages
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <div class="dropdown d-block ">
+                        <button class="font-weight-bold btn btn-primary text-white dropdown-toggle" type="button"
+                          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Action <span class="badge badge-warning rounded-pill">New</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                      <a class="dropdown-item font-weight-bold text-dark" href="#">Another action</a>
+                      <div class="dropdown">
+                        <button class="font-weight-bold btn btn-outline-white text-dark dropdown-toggle" type="button"
+                          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Something else here <span class="badge badge-warning rounded-pill">New</span>
+                        </button>
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-inline-item py-2 col-md-12 text-center">
+                  <a class="nav-link text-white font-weight-bold" href="#">Screenshots</a>
+                </li>
+                <li class="list-inline-item py-2 col-md-12 text-center">
+                  <a class="nav-link text-white font-weight-bold" href="#">Pricing</a>
+                </li>
+                <li class="list-inline-item py-2 col-md-12 text-center">
+                  <a class="nav-link text-white font-weight-bold" href="#">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid color2 mt-3">
+    <div class="container py-4">
+      <!-- <div class="addNewCard"> -->
+      <!-- </div> -->
+      <div class="row p-4">
+        <div class="col-lg-6 col-12 animatsiya">
+          <p class="text1"> Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <p class="text-white font-weight-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem,
+            expedita facere cumque
+            placeat reiciendis odit quod obcaecati nihil incidunt mollitia aspernatur molestiae facilis amet sed!</p>
+          <div class=" row d-flex p-4 animatsiya">
+            <div class="col-md-6 col-12 mb-3"><a href="#"><img class="img-fluid" src="image/google-play.png"
+                  alt="havola"></a></div>
+            <div class="col-md-6 col-12"><a href="#"><img class="img-fluid" src="image/app-store.png" alt="havola"></a>
+            </div>
+          </div>
+          <p class="font-italic text-white animatsiya">*Available on iPhone, iPad and all Android devices</p>
+        </div>
+
+        <div class="col-lg-6 col-12 p-4 d-flex justify-content-center">
+          <img class="img-fluid foto-size" src="image/welcome-mockup.png" alt="phoneFoto">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container bg-white">
+    <div class="row d-flex p-5">
+      <div class="col-lg-3 col-sm-6 col-12 border-right text-center">
+        <p class="text1 text-primary">10M</p>
+        <h4>Users</h4>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12 border-right text-center">
+        <p class="text1 text-primary">23K</p>
+        <h4>Download</h4>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12 border-right text-center">
+        <p class="text1 text-primary">9M</p>
+        <h4>Customer</h4>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-12 text-center border-right">
+        <p class="text1 text-primary">12K</p>
+        <h4>Developer</h4>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container bg-light p-5">
+            <button class="modal-button" type="button">Launch modal</button>
+      </div> 
+    <section class="modal">
+        <div class="modal-dialog">
+            <button class="modal-close" type="button">X</button>
+            <h5 class="modal-heading">Modal title</h5>
+            <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, animi!</p>
+        </div>
+    </section>
+ -->
+  <!-- 
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+  <div class="container p-5">
+    <div class="row p-5">
+      <div class="col-12 text-center">
+        <div
+          class="w-25 py-lg-1 px-lg-4 w-md-50 py-2 px-4 m-auto d-flex justify-content-center align-items-center  rounded-pill border shadow-sm">
+          <i class=" fa fa-thumbs-up mr-2 text-primary" aria-hidden="true"></i>
+          <p class="my-2"> <b class="text-primary my-2">Premium</b> Feature</p>
+        </div>
+        <h1 class="font-weight-bolder pt-5 pb-3">What Makes sApp Different?</h1>
+        <span class="bottom1"></span>
+        <p class="text-center pb-5 pt-3 font-weight-bold w-75 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Corrupti
+          reprehenderit sapiente culpa incidunt voluptatem itaque inventore voluptate nam!</p>
+      </div>
+      <div class="col-lg-4 col-12 d-lg-flex d-block  mb-5 justify-content-lg-around justify-content-center">
+        <div class="win1 shadow-lg text-center">
+          <img class="img-fluid" width="60" src="image/layers.png" alt="layers">
+          <h2 class="pb-3 pt-1">Full Functional</h2>
+          <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Non reprehenderit labore possimus facilis! Voluptatem.</h5>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 d-lg-flex d-block  mb-5 justify-content-lg-around justify-content-center">
+        <div class="win1 shadow-lg text-center">
+          <img class="img-fluid" width="60" src="image/speak.png" alt="speak">
+          <h2 class="pb-3 pt-1">Live Chat</h2>
+          <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Non reprehenderit labore possimus facilis! Voluptatem.</h5>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 d-lg-flex d-block  mb-5 justify-content-lg-around justify-content-center">
+        <div class="win1 shadow-lg text-center">
+          <img class="img-fluid" width="60" src="image/lock.png" alt="lock">
+          <h2 class="pb-3 pt-1">Secure Data</h2>
+          <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Non reprehenderit labore possimus facilis! Voluptatem.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid color1">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 col-12 animatsiya">
+          <p class="font-weight-bold text2">Make Your Device Manage Everything For You</p>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="bg-white border"><i class="fa-2x fa fa-exchange p-3  rounded text-primary"
+                aria-hidden="true"></i></div>
+            <div class="ml-3">
+              <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit voluptate facere lorem lorem lorem lorem lorwem</h5>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="bg-white border"><i class="fa-2x fa fa-envelope-open p-3  rounded text-primary"
+                aria-hidden="true"></i></div>
+            <div class="ml-3">
+              <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit voluptate facere lorem lorem lorem lorem lorwem</h5>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="bg-white border"><i class="fa-2x fa fa-user-circle p-3  rounded text-primary"
+                aria-hidden="true"></i></div>
+            <div class="ml-3">
+              <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit voluptate facere lorem lorem lorem lorem lorwem</h5>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="bg-white border"><i class="fa-2x fa fa-recycle p-3  rounded text-primary"
+                aria-hidden="true"></i></div>
+            <div class="ml-3">
+              <h5 class="font-weight-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit voluptate facere lorem lorem lorem lorem lorwem</h5>
+            </div>
+          </div>
+          <div class="col-12 py-3">
+            <button class="btn btn-primary rounded py-2 px-4"><b>Learn More</b></button>
+          </div>
+
+
+        </div>
+        <div class="col-lg-6 col-12 py-5 d--lg-flex d-flex justify-content-lg-end justify-content-center">
+          <img class="img-fluid float-right" width="380" src="image/thumb-1.png" alt="thumb-1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12 py-5 pl-0"><img class="img-fluid py-5" src="image/iphone_x.png" alt="iphone"></div>
+        <div class="col-lg-6 col-12 pt-4">
+          <h1 class="font-weight-bold text2 pt-5">Easily communicate with clients using sApp.</h1>
+          <p class="text-secondary py-3">Lorem ipsum dolor sit amet, lorem lorem consectetur adipisicing elit.
+            Error natus hic dolores, laborum labore lorem lorem lorem lorem lorem esse?</p>
+          <div class="d-flex">
+            <div><i class="fa fa-check fa-fw pt-2 text-primary fa-2x"></i></div>
+            <div class="pl-3">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div><i class="fa fa-check fa-fw pt-2 text-primary fa-2x"></i></div>
+            <div class="pl-3">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div><i class="fa fa-check fa-fw pt-2 text-primary fa-2x"></i></div>
+            <div class="pl-3">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div><i class="fa fa-check fa-fw pt-2 text-primary fa-2x"></i></div>
+            <div class="pl-3">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+            </div>
+          </div>
+          <div class=" py-3">
+            <i class="fa fa-bell p-2 shadow-sm text-primary fa-2x rounded border mr-2"></i>
+            <i class="fa fa-envelope-open p-2 shadow-sm text-primary fa-2x rounded border mr-2"></i>
+            <i class="fa fa-video-camera p-2 shadow-sm text-primary fa-2x rounded border mr-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid color2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text2 text-white text-center pt-5 font-weight-bold">How sApp works?</h1>
+          <p class="py-3 text-center w-75 m-auto text-light font-weight-bold">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+            Suscipit ut laudantium officiis consequatur voluptatum? Laboriosam officia a modi dicta quas?</p>
+        </div>
+        <div class="row d-lg-flex  d-block justify-content-lg-between py-5">
+          <div class="col-lg-4 col-12 text-center win2 mb-5">
+            <img class="img-fluid" width="70" src="image/download.png" alt="">
+            <h2 class="text-center text-white py-3">Install the App</h2>
+            <div class="float-right"> <i class="fa fa-chevron-right text-light  fa-3x" aria-hidden="true"></i></div>
+            <h5 class="text-center font-weight-normal text-light w-75 m-auto">Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Quas, eligendi magnam!
+              Impedit?</h5>
+          </div>
+          <div class="col-lg-4 col-12 text-center win2 mb-5">
+            <img class="img-fluid" width="70" src="image/settings.png" alt="">
+            <h2 class="text-center text-white py-3">Install the App</h2>
+            <span class="float-right"><i class="fa fa-chevron-right  text-light fa-3x" aria-hidden="true"></i></span>
+            <h5 class="text-center font-weight-normal text-light w-75 m-auto">Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Quas, eligendi magnam!
+              Impedit?</h5>
+          </div>
+          <div class="col-lg-4 col-12 text-center mb-5">
+            <img class="img-fluid" width="70" src="image/app.png" alt="">
+            <h2 class="text-center text-white py-3">Install the App</h2>
+            <h5 class="text-center font-weight-normal text-light w-75 m-auto">Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Quas, eligendi magnam!
+              Impedit?</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 py-5">
+        <div
+          class="w-25 px-lg-3 w-md-50 py-1 px-4 m-auto d-flex justify-content-center align-items-center  rounded-pill border shadow-sm">
+          <i class=" fa fa-thumbs-up mr-2 text-primary" aria-hidden="true"></i>
+          <p class="my-2"> <b class="text-primary my-2">Premium</b> Feature</p>
+        </div>
+        <h1 class="text-center text2 pt-4">Simple & Beautiful Interface</h1>
+        <span class="bottom1"></span>
+        <p class="text-center text-secondary font-weight-bold py-4 w-75 m-auto">Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Explicabo,
+          voluptatum! Vitae quos ullam mollitia reiciendis dolorem doloribus nam, itaque ea?</p>
+      </div>
+      <div class="col-12 py-5 ">
+        <div class="row d-flex ">
+          <div class="carousel owl-carousel">
+              <div class="col-12">
+                <img class="img-fluid border shadow" src="image/1.jpg" alt="">
+            </div>
+              <div class="col-12">
+                <img class="img-fluid border shadow" src="image/2.jpg" alt="">
+            </div>
+              <div class="col-12">
+                <img class="img-fluid border shadow" src="image/3.jpg" alt="">
+            </div>
+              <div class="col-12">
+                <img class="img-fluid border shadow" src="image/4.jpg" alt="">
+            </div>
+              <div class="col-12">
+                <img class="img-fluid border shadow" src="image/5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container mb-5">
+  <div class="row py-5">
+  <div class="col-12">
+  <div class="w-25 px-lg-3 w-md-50 py-1 px-4 m-auto d-flex justify-content-center align-items-center  rounded-pill border shadow-sm">
+  <i class=" fa fa-thumbs-up mr-2 text-primary" aria-hidden="true"></i>
+  <p class="my-2"> <b class="text-primary my-2">Premium</b> Feature</p></div>
+  <h1 class="text2 text-center font-weight-bold pt-5"> What Our Customers Are Saying</h1>
+  <span class="bottom1"></span>
+  <p class="text-center w-75 m-auto py-5 font-weight-bold text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nostrum,
+     temporibus fugiat aliquam vitae qui quos perferendis libero? Soluta, dolore.</p>
+</div>
+<div class="row">
+<div class="col-lg-4 col-12 mb-4 text-center">
+  <div class="win3 shadow-lg pt-3 px-3 pb-0 m-auto">
+  <h4 class="text-center text-primary py-3 font-weight-bold">Excellent service & support!!</h4>
+  <p class="text-center">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit,
+     amet consectetur adipisicing elit. Quam, nam. adipisicing elit. 
+     Saepe dolores repudiandae minus! Lorem ipsum dolor sit.</p>
+    <div class="row p-3 color1">
+      <div class="col-4">
+        <img class="img-fluid rounded-circle border" src="image/avatar-1.png" alt="">
+      </div>
+      <div class="col-8">
+        <h3 class="text-primary pt-1">Junaid Hasan</h3>
+        <h5>lorem lorem</h5>
+      </div>
+    </div>
+</div></div>
+<div class="col-lg-4 col-12 mb-4">
+  <div class="win3 shadow-lg pt-3 px-3 pb-0 m-auto">
+  <h4 class="text-center text-primary py-3 font-weight-bold">Excellent service & support!!</h4>
+  <p class="text-center">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit,
+    amet consectetur adipisicing elit. Quam, nam. adipisicing elit. 
+    Saepe dolores repudiandae minus! Lorem ipsum dolor sit.</p>
+   <div class="row p-3 color1">
+     <div class="col-4">
+       <img class="img-fluid rounded-circle border" src="image/avatar-2.png" alt="">
+     </div>
+     <div class="col-8">
+       <h3 class="text-primary pt-1">Junaid Hasan</h3>
+       <h5>lorem lorem</h5>
+     </div>
+   </div>
+</div></div>
+<div class="col-lg-4 col-12 mb-4">
+  <div class="win3 shadow-lg pt-3 px-3 pb-0 m-auto">
+  <h4 class="text-center text-primary py-3 font-weight-bold">Excellent service & support!!</h4>
+  <p class="text-center">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit,
+    amet consectetur adipisicing elit. Quam, nam. adipisicing elit. 
+    Saepe dolores repudiandae minus! Lorem ipsum dolor sit.</p>
+   <div class="row p-3 color1">
+     <div class="col-4">
+       <img class="img-fluid rounded-circle border" src="image/avatar-3.png" alt="">
+     </div>
+     <div class="col-8">
+       <h3 class="text-primary pt-1">Junaid Hasan</h3>
+       <h5>lorem lorem</h5>
+     </div>
+   </div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="container-fluid color1">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-12">
+        <h1 class="text2 py-3 text-center">Unlock Full Power Of sApp</h1>
+        <span class="bottom1"></span>
+        <p class="w-75 m-auto text-center font-weight-bold text-secondary pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Consequuntur aspernatur id asperiores, exercitationem
+           aliquam ipsam at itaque libero iusto ab.</p>
+      </div>
+      
+        <div class="col-lg-6 col-12 p-5 d-lg-flex d-flex justify-content-lg-end justify-content-center">
+          <div class="win4 text-center rounded shadow-sm">
+            <img class="img-fluid pb-3" width="100" src="image/basic.png" alt="">
+            <h4 class="pb-3">BASIC</h4>
+            <h1 class="color-text pb-2"><sub>$</sub>49</h1>
+            <p class="text-secondary border-top py-3 mb-0 ">5GB Linux Web Space</p>
+            <p class="text-secondary border-top py-3 mb-0 ">5 MySQL Databases</p>
+            <p class="text-secondary border-top py-3 mb-0 ">24/7 Tech Support</p>
+            <p class="text-secondary border-top border-bottom py-3">Daily Backups</p>
+          
+          <span class="link1"><a class="color2 py-2 px-3 text-white font-weight-bold rounded" href="#">Sign Up</a></span>
+        </div></div>
+
+        <div class="col-lg-6 col-12  p-5 d-lg-flex d-flex justify-content-lg-start  justify-content-center">
+          <div class="win4 text-center rounded shadow-sm">
+            <img class="img-fluid pb-3" width="100" src="image/premium.png" alt="">
+            <h4 class="pb-3">PRO</h4>
+            <h1 class="color-text pb-2"><sub>$</sub>129</h1>
+            <p class="text-secondary border-top py-3 mb-0 ">5GB Linux Web Space</p>
+            <p class="text-secondary border-top py-3 mb-0 ">5 MySQL Databases</p>
+            <p class="text-secondary border-top py-3 mb-0 ">24/7 Tech Support</p>
+            <p class="text-secondary border-top border-bottom py-3">Daily Backups</p>           
+         
+          <span class="link1"><a class="color2 py-2 px-3 text-white font-weight-bold rounded" href="#">Sign Up</a></span>
+     </div>
+      </div>
+        <p class="text-center w-75 m-auto py-5 font-weight-bold">Not sure what to choose?<a href="#"> Contact Us</a></p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row py-5">
+    <div class="col-12 pt-3 pb-5">
+      <h1 class="text-center text2">Frequently Asked Questions</h1>
+      <span class="bottom1 mb-4"></span>
+      <p class="w-75 m-auto text-center text-secondary font-weight-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Qui, ex dicta cupiditate itaque mollitia impedit. Amet numquam minus quo quasi?</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <div class="col-lg-6 col-12 my-3 ">
+      <h4>How to install sApp?</h4>
+      <p class="text-justify text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus cumque explicabo. Quidem et harum ratione at,
+         saepe voluptas, inventore ipsam laudantium, quos similique maiores! Ducimus dolore ullam omnis excepturi!</p>
+    </div>
+    <p class="text-center w-75 m-auto py-5 font-weight-bold">Haven't find suitable answer? <a href="#">  Tell us what you need.</a></p>
+  </div>
+</div>
+<div class="container">
+  <div class="row pb-5">
+    <div class="col-12 pt-3 pb-5">
+      <h1 class="text-center text2">Our Team Experts</h1>
+      <span class="bottom1 mb-4"></span>
+      <p class="w-75 m-auto text-center text-secondary font-weight-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Qui, ex dicta cupiditate itaque mollitia impedit. Amet numquam minus quo quasi?</p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12 ">
+      <div class="rasm first1">
+        <div class="hover1 text-center text-white">
+        <h3>Junaid Hasan</h3>
+        <h5 class="pb-3 pt-2">Web Developer</h5>
+     <i class="px-1 fa fa-facebook"></i>
+     <i class="px-1 fa fa-twitter"></i>
+     <i class="px-1 fa fa-google-plus"></i>
+     <i class="px-1 fa fa-linkedin"></i>
+    </div>
+  </div>
+</div>
+    <div class="col-lg-3 col-md-6 col-12">  
+      <div class="rasm first2">    
+      <div class="hover1 text-center text-white"> 
+        <h3 class="px-5">Nappi</h3>
+        <h5 class="pb-3 pt-2">Grafik dizayner</h5>
+     <i class="px-1 fa fa-facebook"></i>
+     <i class="px-1 fa fa-twitter"></i>
+     <i class="px-1 fa fa-google-plus"></i>
+     <i class="px-1 fa fa-linkedin"></i>
+    </div>
+  </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="rasm first3">
+      <div class="hover1 text-center text-white"> 
+        <h3 class="px-3 text-center">Lutpullojon</h3>
+        <h5 class="pb-3 pt-2">Svarchik</h5>
+     <i class="px-1 fa fa-facebook"></i>
+     <i class="px-1 fa fa-twitter"></i>
+     <i class="px-1 fa fa-google-plus"></i>
+     <i class="px-1 fa fa-linkedin"></i>
+    </div>
+  </div>
+</div>
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="rasm first4">
+      <div class="hover1 text-center text-white"> 
+        <h3 class="px-4">Nargiza</h3>
+        <h5 class="pb-3 px-5 pt-2">Tikuvchi</h5>
+     <i class="px-1 fa fa-facebook"></i>
+     <i class="px-1 fa fa-twitter"></i>
+     <i class="px-1 fa fa-google-plus"></i>
+     <i class="px-1 fa fa-linkedin"></i>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<div class="container-fluid fixed1">
+<div class="container  py-4">
+  <div class="row">
+  <div class="col-12">
+      <h1 class="text-center text2 text-white font-weight-bold">sApp is available for all devices</h1>
+      <p class="text-center text-white font-weight-bold py-2">Lorem ipsum dolor sit amet, consectetur
+         adipisicing elit. Facilis consectetur sapiente quo 
+        optio error molestiae harum voluptas accusamus quaerat, nulla illum eos aut amet impedit, 
+        repudiandae quam et illo eius.</p></div>
+        
+          <div class="col-6 mb-3 d-flex justify-content-md-end py-2">
+            <a href="#"><img class="img-fluid" width="200" src="image/google-play.png"
+                alt="havola"></a>
+              </div>
+          <div class="col-6 d-flex justify-content-md-start py-2">
+            <a href="#"><img class="img-fluid" width="200" src="image/app-store.png" alt="havola"></a>
+          </div>
+       
+</div>
+<div class="d-block"><p class="font-italic text-white mb-3 text-center">*Available on iPhone, iPad and all Android devices</p></div>
+  </div>
+</div>
+</div>
+
+  <div class="container pb-5">
+    <div class="col-12 py-4">
+      <h1 class="text2 text-center font-weight-bold">Subscribe to get updates</h1>
+      <p class="w-75 m-auto text-secondary text-center font-weight-bold py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quam
+         quibusdam amet placeat voluptates in ipsa voluptas dolorum at totam?</p>
+    </div>
+    <div class="form">
+    <div class="col-12 mb-3 d-flex justify-content-center">
+    <input class="py-2 text-center column1" type="text" placeholder="Enter your email">
+    </div>
+    <div class="col-12 d-flex justify-content-center mb-5">
+      <button class="text-center py-2 px-5 bg-primary column1 text-light font-weight-bold" type="submit">Subscribe</button>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid color1">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 pb-5">
+          <h1 class="text2 py-3 text-center">Stay Tuned</h1>
+          <span class="bottom1"></span>
+          <p class="w-75 m-auto text-center font-weight-bold text-secondary pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Consequuntur aspernatur id asperiores, exercitationem
+             aliquam ipsam at itaque libero iusto ab.</p>
+        </div>
+        <div class="col-lg-6">  
+          <p class="text-secondary text-justify font-weight-bold w-75 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel sunt possimus optio, molestiae veritatis aut exercitationem dolore maxime
+            cum est sequi mollitia odit saepe, quasi explicabo</p>
+            <div class="d-flex my-3">
+              <div><i class="fa fa-home fa-2x rounded color2 p-2 text-white"></i></div>
+              <div><a class="text-decoration-none" href="#"><h5 class="w-75 ml-4">Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002</h5></a></div>
+            </div>
+            <div class="d-flex my-3">
+              <div ><i class="fa fa-address-book  fa-2x rounded color2 p-2 text-white"></i></div>
+              <div><a class="text-decoration-none" href="#"><h5 class="ml-4 pt-2">+1 230 456 789-012 345 6789</h5></a></div>
+            </div>
+            <div class="d-flex my-3">
+              <div><i class="fa fa-envelope-open fa-2x rounded color2 p-2 text-white"></i></div>
+              <div><a class="text-decoration-none" href="#"><h5 class="w-75 ml-4 pt-2">exampledomain@domain.com</h5></a></div>
+            </div>       
+        </div>
+        <div class="col-lg-6">
+          <div class="form">
+            <div class="col-12 mb-3 d-flex shadow-sm px-0 justify-content-center">
+            <input class="py-2 pl-2 text-secondary column2" type="text" placeholder="Name" required>
+            </div>
+            <div class="col-12 mb-3 d-flex shadow-sm px-0 justify-content-center">
+              <input class="py-2 pl-2 text-secondary column2" type="text" placeholder="Email" required>
+              </div>
+              <div class="col-12 mb-3 d-flex shadow-sm px-0 justify-content-center">
+                <input class="py-2 pl-2 text-secondary column2" type="text" placeholder="Subject" required>
+                </div>
+                 <div class="col-12 mb-3 d-flex shadow-sm px-0 justify-content-center">
+                  <textarea class="py-2 pl-2 text-secondary column2" required  name="" id="" cols="30" rows="5" placeholder="Messange"></textarea>
+                  </div>
+            <div class="col-12 d-flex shadow-sm px-0 justify-content-center mb-5">
+              <button class="text-center py-2 pl-2 text-secondary px-5 bg-primary column2 text-light font-weight-bold" type="submit"><i class="fa fa-send pr-2"></i> Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container pt-5">
+    <div class="row py-5">
+      <div class="col-lg-3 col-md-6 col-12">
+        <img class="img-fluid color2 mb-3" src="image/logo-white.png" alt="">
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing lorem elit. Dolorum, mollitia. Lorem, ipsum dolor.</p>
+        <i class="win5 fa-2x px-2 py-1 fa fa-facebook text-white color2 rounded m-2"></i>
+        <i class="win5 fa-2x px-2 py-1 fa fa-twitter text-white bg-primary  rounded m-2"></i>
+        <i class="win5 fa-2x px-2 py-1 fa fa-google text-white bg-danger  rounded m-2"></i>
+        <i class="win5 fa-2x px-2 py-1 fa fa-whatsapp bg-success text-white  rounded m-2"></i>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 pl-5">
+        <h3 class="font-weight-bold text-justify mb-4">Useful Links</h3>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Home</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">About Us</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Services</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Blog</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Contact</a></div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 pl-5">
+        <h3 class="font-weight-bold text-justify mb-4">Product Help</h3>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">FAQ</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Privacy Policy</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Support</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Terms & Conditions</a></div>
+        <div class="text-justify mb-3"><a class="text-decoration-none text-secondary font-weight-bold" href="#">Contact</a></div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 pl-5">
+        <h3 class="font-weight-bold text-justify">Download</h3>
+        <div class="row d-block mt-4">
+          <div class="mb-3"><img class="rounded" width="170" src="image/google-play-black.png" alt=""></div>
+          <div><img class="rounded" width="170" src="image/app-store-black.png" alt=""></div>
+        </div>
+      </div>
+      
+ 
+    </div>
+    <hr class="bg-dark">
+    <div>
+      <div class="float-left"> <p class="font-weight-bold text-secondary">© Copyrights 2020 sApp All rights reserved.
+    </p></div>
+      <div class="float-right font-weight-bold"><p class="text-secondary">Made with <i class="fa fa-heart text-secondary"></i> <a class="text-secondary" href="#">By Theme Land</a></p></div>
+    </div>
+   
+  </div>
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

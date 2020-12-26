@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.animatsiya {
+  animation: modal-right 1.5s ease 1 forwards;
+}
+
+.foto-size {
+  width: 300px;
+  height: 400;
+  animation: modal-down 1.5s ease 1 forwards;
+}
+@keyframes modal-right {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* tilllllllla topdim */
+@keyframes modal-down {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.text1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  line-height: normal;
+}
+.text2 {
+  font-size: 50px;
+  color: black;
+}
+.bottom1 {
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #06407e;
+  margin: 0 auto;
+}
+.win1 {
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+.win1:hover {
+  transform: translateY(-20px);
+}
+.fa-chevron-right {
+  transition: all 0.7s ease;
+}
+.win2:hover .fa-chevron-right {
+  transform: translateX(15px);
+}
+.win3 {
+  width: 350px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid lightgrey;
+}
+.win4 {
+  width: 300px;
+  padding: 35px;
+  background-color: #fff;
+  position: relative;
+}
+.link1 {
+  position: absolute;
+  bottom: -11px;
+  right: 100px;
+}
+.color-text {
+  color: #343a85;
+}
+.color1 {
+  background-color: #ebeef5;
+}
+.color2 {
+  background: linear-gradient(#4035e6, #343a85);
+}
+.rasm {
+  width: 270px;
+  height: 260px;
+  transform: scale(1);
+  position: relative;
+  transition: all 1s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 10px;
+  margin:20px auto;
+}
+.first1 {
+  background-image: url(image/avatar-1.png);
+}
+.first2 {
+  background-image: url(image/avatar-2.png);
+}
+.first3 {
+  background-image: url(image/avatar-3.png);
+}
+.first4 {
+  background-image: url(image/avatar-4.png);
+}
+.hover1 {
+  max-width: 100%;
+  height: 100%;
+  padding: 50px;
+  position: absolute;
+  top: center;
+  left: center;
+  overflow: hidden;
+  position: relative;
+  transform: scale(0);
+  transition: all 0.6s ease;
+}
+.first1:hover {
+  transform: scale(1.1);
+}
+.first1:hover .hover1 {
+  transform: scale(1);
+  background-color:rgba(63, 52, 216, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.first2:hover {
+  transform: scale(1.1);
+}
+.first2:hover .hover1 {
+  transform: scale(1);
+  background-color:rgba(63, 52, 216, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.first3:hover {
+  transform: scale(1.1);
+}
+.first3:hover .hover1 {
+  transform: scale(1);
+  background-color:rgba(63, 52, 216, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.first4:hover {
+  transform: scale(1.1);
+}
+.first4:hover .hover1 {
+  transform: scale(1);
+  background-color:rgba(63, 52, 216, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.fixed1{
+    width: 100%;
+    height: 450px;
+    display: block;
+    margin: 100px;
+    padding: 20px;
+    background-image:linear-gradient(to bottom, rgba(25, 25, 61, 0.795),rgba(7, 13, 41, 0.883) ), url(image/download-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+/* .modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-open {
+  display: block;
+}
+.modal-dialog {
+  width: 500px;
+  padding: 50px;
+  margin: 50px auto;
+  background-color: #fff;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+} */
+.column1{
+    width: 60%;
+}
+.column2{
+    width: 100%;
+}
+.win5{
+  width: 40px;
+  height: 40px;
+  transition: all 0.7s ease;
+  transform: scale(1);
+}
+.win5:hover {
+  transform: scale(1.2);
+}
