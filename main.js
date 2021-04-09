@@ -32,7 +32,7 @@ var Phone = [
         model: 'artel',
         memory: '64GB',
         batary: 5000,
-        prace: '100 $',
+        prace: 100 ,
         color: 'blue',
         camera: '64 MP',
         operative: 4
@@ -43,7 +43,7 @@ var Phone = [
         model: 'redmi',
         memory: '64GB',
         batary: 5000,
-        prace: '200 $',
+        prace: 200,
         color: 'blue',
         camera: '64 MP',
         operative: 4
@@ -54,7 +54,7 @@ var Phone = [
         model: 'readmi',
         memory: '64GB',
         batary: 5000,
-        prace: '200 $',
+        prace: 200 ,
         color: 'blue',
         camera: '64 MP',
         operative: 4
@@ -65,7 +65,7 @@ var Phone = [
         model: 'redmi',
         memory: '64GB',
         batary: 5000,
-        prace: '300 $',
+        prace: 300,
         color: 'blue',
         camera: '64 MP',
         operative: 4
@@ -76,7 +76,7 @@ var Phone = [
         model: 'Iphone X',
         memory: '128 GB',
         batary: 4000,
-        prace: '1000 $',
+        prace: 1000,
         color: 'dark',
         camera: '48 MP',
         operative: 6
@@ -87,31 +87,40 @@ var Phone = [
         model: 'A51',
         memory: '32 GB',
         batary: 5000,
-        prace: '250 $',
+        prace: 250,
         color: 'black',
         camera: '32 MP',
         operative: 4
     }];
 
+//     var eladdNewCard =[];
+
 //    for (var i=0; i<Phone.length;i++){
-// newUpperCase.push(Phone[i].company.toUpperCase());
+//    newUpperCard.push(Phone[i].prace);
+//    console.log(newUpperCard);
+// }
+
 // Phone.forEach(function(company){
-//     newUpperCase.push(company.toUpperCase());
+//     newUpperCard.push(company.foto.toUpperCase());
 // });
-// console.log(newUpperCase);
+// console.log(newUpperCard);
 
-// 
-// var eladdNewCard = document.querySelector('.addNewCard');
 
-// var newUpperCase = Phone.map(function (nomi) {
 
-//     return {
-//         companiya: nomi.company.toUpperCase(),
-//         narxi: nomi.prace
-//     };
 
-// });
-// console.log(newUpperCase);
+// map ga misol;
+var eladdNewCase =[];
+
+var newUpperCase = Phone.map(function (nomi) {
+
+    return {
+        companiya: nomi.company.toUpperCase(),
+        narxi: nomi.prace+'$' 
+    };
+
+});
+console.log(newUpperCase);
+// ////////
 
 //   eladdNewCard.innerHTML = newUpperCase.join('<br>');
 
@@ -126,6 +135,8 @@ var Phone = [
 //     modal.find('.modal-title').text('New message to ' + recipient)
 //     modal.find('.modal-body input').val(recipient)
 //   })
+
+
 //     var elModalButton = document.querySelector('.modal-button');
 //     var elModal = document.querySelector('.modal');
 //     var elModalClose = document.querySelector('.modal-close');
@@ -147,8 +158,9 @@ var Phone = [
 //   (seconds%60<10)? '0'+seconds%60 : seconds%60;
 // }
 // (Math.floor((seconds%3600)/60)<10)
-// return '0'+Math.floor((seconds%3600)/60)+':'; 
+// return '0'+Math.floor((seconds%3600)/60)+':';
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // function format(s){
 //     s = s > 9 ? s : '0'+ s;
@@ -161,43 +173,28 @@ var Phone = [
 //     s = seconds % 60;
 //     return format(h)  + ':'+ format(m) + ':' + format(s);
 // };
-// console.log(digitalClock(755));
+// console.log(digitalClock(3601));
+
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 
 // function double(numb){
 //     sum=0;
 //     for (var i=0;i<=numb;i++){
-//         sum+=i;
-//     }
+//         sum+=i;}
 //     return sum;
 //  }
 // console.log(double(5));
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
+
 // function variant(num){
-//     return parseInt((num*(1+num)/2),10);
+//   return parseInt((num*(1+num)/2),10);
 // }
-// console.log(variant(5));
-// program to print prime numbers between the two numbers
+// console.log(variant(9));
 
-// take input from the user
-
-
-// var lowerNumber = parseInt(prompt('Enter lower number: '));
-// var higherNumber = parseInt(prompt('Enter higher number: '));
-// for (var i = lowerNumber; i <= higherNumber; i++) {
-//     var flag = 0;
-
-//     for (var j = 2; j < i; j++) {
-//         if (i % j == 0) {
-//             flag = 1;
-//             break;
-//         }
-//     }
-
-//     if (i > 1 && flag == 0) {
-//         console.log(i);
-//     }
-// }
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // masala
 // function ruleSpeed(speed){ 
@@ -213,7 +210,9 @@ var Phone = [
 // }
 // console.log(ruleSpeed(75));
 
-// masala
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
+// masala 
 // function summa(num){
 //     sum=0;
 //     for (var i = 0; i <=num; i++){
@@ -222,27 +221,23 @@ var Phone = [
 //     }
 //       return sum;
 // }
-// console.log(summa(10));
+// console.log(summa(15));
+
+
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // masala
 
-// var telefon={
-//     madel:'samsung',
-//     rangi:'qora',
-//     narxi:200,
-//     camera:48
-// }
-// function sarala(telefon){
-//     var qosh
+// var ar=[1,2,3,4,5,6,0,21];
 
-
-
-// let ar=[1,2,3,4,5,6,0,21];
-
-// let filtered=a.filter(function(element){
-//     return element>3;
+// var filtered=ar.filter(function(element){
+//     return element > 3;
 // })
 // console.log(filtered);
+
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
+// let ar=[1,2,3,4,5,6,10,9,21];
 
 //    var sum = 0;
 //    for (var i = 0; i < ar.length; i++){
@@ -250,26 +245,27 @@ var Phone = [
 //    }
 //    console.log(sum);
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
+// var x=[3,2,1];
+// var y=[6,5,4];
 
 
-// a = [1, 2, 3];
-// b = [3, 2, 1];
-
-// function compareTriplets(a, b) {
+// function hisobchi(x, y) {
 //     sumA = 0, sumB = 0;
 //     for (var i = 0; i < 3; i++) {
-//         if (a[i] > b[i]) {
-//              sumA++;
+//         if (x[i] > y[i]) {
+//         sumA++;
 //         }
-//         else if (a[i] < b[i]) {
-//             sumB++;
+//         else   if (x[i] < y[i]){
+//         sumB++;
 //         }
 //     }
 //     return [sumA, sumB];
 // }
+// console.log(hisobchi(x, y));
 
-// console.log(compareTriplets(a,b));
-
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // var ar=[1,2,3,4,5,6,7,8,9];
 // function double(ar){
@@ -281,6 +277,8 @@ var Phone = [
 // }
 // console.log(double(ar));
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
 // var b=['salom','hello','alek','hi'];
 // var text='';
 // for (var i=0;i<b.length;i++){
@@ -288,12 +286,12 @@ var Phone = [
 // }
 // console.log(text);
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
 // var b=['salom','hello','alek','hi'];
 // var text='';
 // var x=0;
-// for (x in b[1]){
-//     text+=b[x]+'\n';
-// }
+// for (x in b[1]){ text+=b[x]+'\n';}
 // console.log(text);
 
 
@@ -303,7 +301,9 @@ var Phone = [
 // for (x of txt) {
 //   console.log(x + " ");
 // }
+
 // ////////////////////////////////////////////////////////////////////
+
 // function nums( a, b ){
 // if(a>b){
 //     return a;
@@ -317,11 +317,14 @@ var Phone = [
 // }
 // console.log(nums(2,3));
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
 // function boolTime(w,h){
 //     return w>h; 
 // }
 // console.log(boolTime(5,4));
 
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // function FizzBuzz(x){
 //     if((x%3===0)&&(x%5===0)){return ('FizzBuzz');}
@@ -331,46 +334,22 @@ var Phone = [
 // }
 // console.log(FizzBuzz(55));
 
-// function summa(x){
-//     var sum=0;
-//     for(var i=0; i <= x; i++){
-//       if(i%3===0 || i%5===0){
-//           sum+=i;}
-//     }
-// return sum;
-// }
-// console.log(summa(10));
-// var odam={
-//     nomi:'Salim',
-//     familiyasi:'Xoliqov',
-//     yoshi:45,
-//     vazni:80
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
-// }
-// function sortObject(name){
-//     for(var index in name){
+var odam={nomi:'Salim', familiyasi:'Xoliqov', yoshi:45, vazni:80 };
 
-//         if(typeof name[index]==='string'){
+function sortObject(name){
+    for(var index in name){
 
-//             console.log(index+':'+name[index]);
-//         }
-//     }
-// }
-// console.log(sortObject(odam));
+        if(typeof name[index]==='string'){
 
+            console.log(index+':'+name[index]);
+        }
+    }
+}
+console.log(sortObject(odam));
 
-
-// function ortacha(arr){
-//     var sum = 0;
-//     var middle=sum/arr.length;
-//     for (var i=0; i<arr.length;i++){
-//         sum=sum+arr[i];
-//     }
-//     return sum ;
-
-// }
-// console.log(ortacha(sessiya));
-
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 
 // var sessiya = [90, 90, 90, 90, 80];
@@ -394,15 +373,9 @@ var Phone = [
 //         return 'a\'lo';
 //     }
 // }
-
 // console.log(middleBall(sessiya));
 
-// var x=prompt('son kiriting: ');
-// for (var i=2;i<=x.length;i++){
-//     if(i%x[i]===0){
-//         console.log(i);
-//     }
-// }
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
 
 // function tubSon(son){
 //     for (var i=2;i<=son;i++){
@@ -419,23 +392,16 @@ var Phone = [
 // }
 // tubSon(20);
 
-// function showPrimeNumbers(limit){
-//     for (var i=2;i<=limit;i++){
-//         var isPrime=1;
-//         for (var j=2;j<i;j++){
-//             if(i%j===0){
-//                 isPrime=0;
-//                 break;   }  }
-//     if(isPrime){
-//          console.log(i);}
-//     }
-// }
-// showPrimeNumbers(20);
+////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@//////////////
+
+//// sort amali ///
 
 // var numbers=[10,1,23,56,88,5,23,33];
 // console.log(numbers.sort(function(a,b){
 //     return a-b;
 // })); 
+
+
 
 // savol savol // // // 
 
@@ -450,23 +416,18 @@ var Phone = [
 
 
 
+// function tubson(x){
+//     for (var i=2; i<=x; i++){
+//         var tub=1;
 
+//         for (var j=2;j<i;j++){
+//             if(i%j===0){
+//             tub=0;
+//             break;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//         }
+//     if(tub){
+//         console.log(i);}
+// } 
+// }
+// tubson(20);
