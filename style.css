@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:sans-serif;
 }
 .animatsiya {
   animation: modal-right 1.5s ease 1 forwards;
@@ -30,7 +31,8 @@
   }
 }
 .text1 {
-  font-size: 60px;
+  margin-top: 20px;
+  font-size: 50px;
   color: white;
   font-weight: bold;
   line-height: normal;
@@ -43,7 +45,7 @@
   display: block;
   width: 100px;
   height: 3px;
-  background-color: #06407e;
+  background-color: #761dfc;
   margin: 0 auto;
 }
 .win1 {
@@ -80,13 +82,13 @@
   right: 100px;
 }
 .color-text {
-  color: #343a85;
+  color: #761dfc;
 }
 .color1 {
   background-color: #ebeef5;
 }
 .color2 {
-  background: linear-gradient(#4035e6, #343a85);
+  background-color: #761dfc;
 }
 .rasm {
   width: 270px;
@@ -129,7 +131,7 @@
 }
 .first1:hover .hover1 {
   transform: scale(1);
-  background-color:rgba(63, 52, 216, 0.8);
+  background-color:#761dfc;
   position: absolute;
   top: 0;
   left: 0%;
@@ -139,7 +141,7 @@
 }
 .first2:hover .hover1 {
   transform: scale(1);
-  background-color:rgba(63, 52, 216, 0.8);
+  background-color:#761dfc;
   position: absolute;
   top: 0;
   left: 0%;
@@ -149,7 +151,7 @@
 }
 .first3:hover .hover1 {
   transform: scale(1);
-  background-color:rgba(63, 52, 216, 0.8);
+  background-color:#761dfc;
   position: absolute;
   top: 0;
   left: 0%;
@@ -159,7 +161,7 @@
 }
 .first4:hover .hover1 {
   transform: scale(1);
-  background-color:rgba(63, 52, 216, 0.8);
+  background-color:#761dfc;
   position: absolute;
   top: 0;
   left: 0%;
